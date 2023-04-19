@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  height: 100vh;
+  background-color: rgb(41, 45, 65);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7efef;
+  width: 70%;
+  height: 60%;
+  border-radius: 10px;
+  gap: 35px;
+  color: rgb(41, 45, 65);
+}
+
+#advice-id {
+  text-align: center;
+  content: " ";
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#advice {
+  padding: 0 25px;
+  text-align: center;
+}
+
+a img {
+  height: 30px;
+}
+
+@media (min-width: 800px) {
+  div {
+    width: 50%;
+    height: 30%;
+    gap: 25px;
+  }
+}
